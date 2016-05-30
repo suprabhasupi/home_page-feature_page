@@ -1,0 +1,77 @@
+
+.login_box{
+	margin-top: 5em;
+	/*opacity: .6;*/
+	padding: 0;
+	box-shadow:0px 0px 5px 3px #907D7D;
+	width: 48%;
+}
+
+
+.design{
+	
+	height: 3.2em;
+	background-color:#12A2E9;
+	border-color: none;
+	position: relative;
+	opacity: .8;
+	
+}
+
+.design1{
+	position: absolute;
+    top: 0;
+    width: 100%;
+}
+.logo{
+	    margin-left: 4em;
+    margin-top: 1em;
+    width: 6%;
+}
+
+.nav>li>a:hover{
+	/*border-bottom: 4px solid white;*/
+	
+	background-color: rgba(0, 0, 255, 0);
+
+}
+.nav-pills>li+li {
+     margin-left: 0;
+     }
+
+     .navbar-nav>li{
+     	padding: 0px;
+
+     }
+
+     .navbar-nav {
+     	padding: 0;
+     }
+     .navbar-nav>li>a{
+
+     color: white;
+    position: relative;
+    top: -12px;}
+
+    span.menus{
+    	position: relative;
+    	top:4px;
+    }
+
+ 
+   
+.pg{
+	    position: relative;
+    top: 4em;
+}
+
+
+
+#facultylogin{
+	display: none;
+}
+
+
+#parentslogin{
+	display: none;
+}
