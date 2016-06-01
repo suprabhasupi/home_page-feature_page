@@ -158,7 +158,11 @@ a.btn.btn-outlined.hhh.btn-primary{
 	left: 2em;
 }
 
-
+/*.jssorb05{
+	position: relative;
+	bottom: 0;
+}
+*/
 
 /*------------------------Third page-------------------------------------------*/
 
@@ -167,6 +171,12 @@ a.btn.btn-outlined.hhh.btn-primary{
 	margin-left: 77px;
 	
 	
+}
+
+.third_left{
+	    margin-left: 10px;
+    position: relative;
+    left: 4em;
 }
 
 .third_left_content{
@@ -610,4 +620,5 @@ position: relative;
   .carousel-inner{
   	height: 18em;
   	    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 4px 16px rgba(0, 0, 0, 0.22);
+  	    margin-left: 2.5em;
   }
