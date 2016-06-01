@@ -68,11 +68,11 @@ margin-top: 6em;
 img.logo_design{
     margin-left: 5%;
     margin-bottom: 11px;
-    margin-top: 11px;
+    /*margin-top: 11px;*/
 }
 .rit_hdr{
     position: relative;
-    top: 1.3em;
+    /*top: 1.3em;*/
     left: 2.2em;
 }
 img.twitter_icon{
@@ -102,7 +102,7 @@ position: relative;
 .navigation{
     position: absolute;
     width:100%;
-        margin-top: 1em;
+        /*margin-top: 1em;*/
 }
 /*---------------------------second row--------------------------------------*/
 
@@ -236,8 +236,10 @@ p.sixth_para {
 }
 
 .ftr_bx {
-    margin-top: 110px;
-    margin-left: 200px;
+        margin-top: 90px;
+    margin-left: 185px;
+    position: relative;
+    bottom: 3em;
 }
 
 .fotr_bx2 {
@@ -256,10 +258,6 @@ img.fotr_icn7 {
 }
 
 
-.fotr_bx2 {
-    margin-top: 6px;
-}
-
 p.fotr_cont2.ftr_cont {
     position: relative;
     top: 15px;
@@ -273,7 +271,19 @@ img.fotr_icn6 {
     margin-top: -10px;
 }
 
+.online{
+    position: relative;
+    top: 3.4em;
+}
 
+.rd_mat{
+    position: relative;
+    top: 12px;
 
+}
 
+img.fotr_icn4{
+    position: relative;
+    top: -1em;
+}
 /*------------------------------------*/

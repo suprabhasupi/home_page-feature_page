@@ -13,7 +13,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-    <!-- <script type="text/javascript" src="js/jquery2.js"></script> -->
     <script type="text/javascript" src="js/TweenMax.min.js"></script>
     <script type="text/javascript" src="js/highlight.pack.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.min.js"></script>
@@ -85,7 +84,7 @@
             .parallaxParent_fourth_row > * {
                 height: 200%;
                 position: relative;
-                top: -190%;
+                top: -100%;
             }
             </style>
             
@@ -323,7 +322,7 @@
 
             // build scenes
             new ScrollMagic.Scene({
-                    triggerElement: "#parallax3"
+                    triggerElement: "#parallax4"
                 })
                 .setTween("#parallax4 > div", {
                     y: "100%",
@@ -343,11 +342,11 @@
                         <img src="images/features/ftr2_icon.png" class="fotr_icn2">
                         <p class="fotr_cont2 ftr_cont">Time tables </p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="col-md-3 col-sm-3 col-xs-12 rd_mat">
                         <img src="images/features/ftr3_icon.png" class="fotr_icn3">
                         <p class="fotr_cont3 ftr_cont">Raeading Material </p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="col-md-3 col-sm-3 col-xs-12 online">
                         <img src="images/features/ftr4_icon.png" class="fotr_icn4">
                         <p class="fotr_cont4 ftr_cont">Online exams
                             <br> and seminars </p>
@@ -356,7 +355,7 @@
                 <div class="row ftr_bx tregular">
                     <div class="col-md-3 col-sm-3 col-xs-12 fotr_bx1">
                         <img src="images/features/ftr5_icon.png" class="fotr_icn5">
-                        <p class="fotr_cont5 ftr_cont">Placement
+                        <p class="fotr_cont5 ftr_cont" style="position: relative left: -1em;">Placement
                             <br>assistance </p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-12 fotr_bx2">
