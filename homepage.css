@@ -622,3 +622,16 @@ position: relative;
   	    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 4px 16px rgba(0, 0, 0, 0.22);
   	    margin-left: 2.5em;
   }
+
+
+.carousel-indicators li{
+	background-color: black;
+}
+
+.carousel-indicators li:active{
+	border:3px solid #1EA1C6;
+}
+
+/*.carousel-indicators li:focus{
+	border:3px solid #1EA1C6;
+}*/
