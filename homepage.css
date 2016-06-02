@@ -626,12 +626,20 @@ position: relative;
 
 .carousel-indicators li{
 	background-color: black;
+	border-color: black;
+	margin-right: 10px;
 }
 
-.carousel-indicators li:active{
-	border:3px solid #1EA1C6;
+.carousel-indicators{
+    position: absolute;
+    left: 57%;
 }
 
 /*.carousel-indicators li:focus{
 	border:3px solid #1EA1C6;
 }*/
+
+.carousel-indicators .active {
+  border:4px solid #3AB0DC;
+  margin-right: 10px;
+}
