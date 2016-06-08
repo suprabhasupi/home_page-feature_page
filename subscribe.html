@@ -34,8 +34,13 @@ margin-top: 6em;
 
 .navbar-inverse .navbar-nav>.active>a{
   background-color: #e73a59 !important;
+  position: relative;
+  top: -2px;
 }
-
+.navbar-inverse .navbar-nav>li>a{
+  position: relative;
+  top: -2px;
+}
 img.logo_design{
   margin-left: 5%;
     margin-bottom: 11px;
@@ -84,7 +89,7 @@ background: radial-gradient(at top,#22a9e2,#42ACDA,#3DABDA));">
     <img src="images/logo_login.png" class="logo_design" style="width: 72px;height: 65px;">
     </div>
     <div class="col-md-3 col-xs-3 col-sm-3 rit_hdr pull-right">
-    <img src="images/fb.png" class="fb_icon">
+   <a href="https://www.facebook.com/attracerp" target="_blank"><img src="images/fb.png" class="fb_icon"></a>
     <img src="images/twitter.png" class="twitter_icon">
     <img src="images/google.png" class="google_icon">
     <img src="images/utube.png" class="utube_icon">
@@ -111,12 +116,12 @@ background: radial-gradient(at top,#22a9e2,#42ACDA,#3DABDA));">
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-          <li class="active"><a href="#">VIEW DEMOC</a></li>
-      
-      <li><a href="#">FEATURES</a></li>
-      <li><a href="#">PRICING</a></li>
-      <li><a href="#">CONTACT</a></li>
-      <li><a href="#">LOGIN</a></li>
+        <li><a href="homepage.html" target="blank">HOME</a></li>
+                                        <li><a href="feature.html" target="blank">FEATURES</a></li>
+                                        <li><a id="#price" target="_blank">PRICING</a></li>
+                                        <li><a href="#contact_details">CONTACT</a></li>
+                                        <li><a href="login_page.html" target="_blank">LOGIN</a></li>
+                                        <li class="active"><a href="subscribe.html" target="_blank">SUBSCRIBE</a></li>
         
       </ul>
      

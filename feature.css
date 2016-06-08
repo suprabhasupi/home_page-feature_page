@@ -74,6 +74,7 @@ img.logo_design{
     position: relative;
     /*top: 1.3em;*/
     left: 2.2em;
+    z-index: 10;
 }
 img.twitter_icon{
     position: relative;

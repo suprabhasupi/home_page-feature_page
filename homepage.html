@@ -151,9 +151,18 @@
     .jssora12r.jssora12rdn {
         background-position: -315px -37px;
     }
+
+    .modal-backdrop.in{
+        opacity: 0;
+    }
     </style>
 </head>
-
+<style>
+.navbar-inverse .navbar-nav>.active>a{
+    position: relative;
+    top:-2px;
+}
+</style>
 <body>
     <!-- <div class="container col-md-12"> -->
     <div class="container col-md-12 col-sm-12 col-xs-12">
@@ -246,7 +255,31 @@
                     <div class="second_butns col-sm-12 col-xs-12">
                         <p class="col-sm-12 col-xs-12 brns_demo">
                             <a href="#" class="btn btn-outlined btn-primary">SIGN UP FOR NEWSLETTER</a>
-                            <a href="#" class="btn btn-outlined hhh btn-primary">REQUEST DEMO</a></p>
+                            <a href="#" class="btn btn-outlined hhh btn-primary " data-toggle="modal" data-target="#myModal">REQUEST DEMO</a></p>
+
+
+
+
+                            <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <!-- <h4 class="modal-title">Modal Header</h4> -->
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div> -->
+      </div>
+      
+    </div>
+  </div>
+  
                     </div>
                 </div>
                 <div class="col-md-7 col-xs-7 col-sm-7">

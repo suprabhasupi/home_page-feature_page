@@ -18,6 +18,7 @@
     <script type="text/javascript" src="js/modernizr.custom.min.js"></script>
     <script type="text/javascript" src="js/ScrollMagic.js"></script>
     <script type="text/javascript" src="js/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ScrollToPlugin.min.js"></script>
     <script type="text/javascript" src="js/debug.addIndicators.js"></script>
     <link rel="stylesheet" type="text/css" href="feature.css">
 </head>
@@ -31,8 +32,6 @@
                 /*width: 100%;*/
                 overflow: hidden;
                 border: 0;
-                
-           
             }
             
             .parallaxParent > * {
@@ -40,7 +39,6 @@
                 /*width: 100%;*/
                 position: relative;
                 top: -100%;
-              
             }
             
             .parallaxParent_second_row {
@@ -87,62 +85,52 @@
                 top: -100%;
             }
             </style>
-            
-
-
             <div class=" col-md-12 col-sm-12 col-xs-12 feature_page panel parallaxParent" id="parallax1">
                 <div class="prlx1">
                     <div class="col-md-12 col-sm-12 col-xs-12"><img src="images/features/bg1_1.jpg"></div>
-
-            <div class="col-md-12 col-sm-12 col-xs-12 logo">
-        <div class="col-md-9 col-sm-9 col-xs-9">
-    <img src="images/logo_login.png" class="logo_design" style="width: 72px;height: 65px;">
-    </div>
-    <div class="col-md-3 col-xs-3 col-sm-3 rit_hdr pull-right">
-    <img src="images/fb.png" class="fb_icon">
-    <img src="images/twitter.png" class="twitter_icon">
-    <img src="images/google.png" class="google_icon">
-    <img src="images/utube.png" class="utube_icon">
-
-    </div>
-    </div>        
-            <div class="navigation">
-<nav class="nav-border">
-<nav class="navbar navbar-inverse nav-color nav-width">
-
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header ">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-          <li class="active"><a href="#">VIEW DEMO</a></li>
-      
-      <li><a href="#">FEATURES</a></li>
-      <li><a href="#">PRICING</a></li>
-      <li><a href="#">CONTACT</a></li>
-      <li><a href="#">LOGIN</a></li>
-        
-      </ul>
-     
-     
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</nav>
-</div>
-
-
-                <div class="col-md-6 col-sm-6 col-xs-12"></div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 logo">
+                        <div class="col-md-9 col-sm-9 col-xs-9">
+                            <img src="images/logo_login.png" class="logo_design" style="width: 72px;height: 65px;">
+                        </div>
+                        <div class="col-md-3 col-xs-3 col-sm-3 rit_hdr pull-right">
+                            <a href="https://www.facebook.com/attracerp" target="_blank"><img src="images/fb.png" class="fb_icon"></a>
+                            <img src="images/twitter.png" class="twitter_icon">
+                            <img src="images/google.png" class="google_icon">
+                            <img src="images/utube.png" class="utube_icon">
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <nav class="nav-border">
+                            <nav class="navbar navbar-inverse nav-color nav-width">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header ">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                    </div>
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="homepage.html" target="blank">HOME</a></li>
+                                            <li class="active"><a href="feature.html" target="blank">FEATURES</a></li>
+                                            <li><a id="homepage.html/#price" target="_blank">PRICING</a></li>
+                                            <li><a href="#contact_details">CONTACT</a></li>
+                                            <li><a href="login_page.html" target="_blank">LOGIN</a></li>
+                                            <li><a href="subscribe.html" target="_blank">SUBSCRIBE</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.navbar-collapse -->
+                                </div>
+                                <!-- /.container-fluid -->
+                            </nav>
+                        </nav>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12"></div>
                     <div class="col-md-6 col-sm-6 col-xs-6 frst_pg">
                         <img src="images/features/notepad.png">
                         <span class="atndnc tregular">Attendance</span>
@@ -308,7 +296,7 @@
                         <br> Helps students understand and perform better </p>
                 </div>
                 <div class="col-md-7 col-sm-12 col-xs-12 sixth_mac">
-                    <img src="images/features/mac4.png"  class="img-responsive">
+                    <img src="images/features/mac4.png" class="img-responsive">
                 </div>
             </div>
             <script>
@@ -370,7 +358,6 @@
                     </div>
                 </div>
             </div>
-           
         </div>
     </div>
 </body>
